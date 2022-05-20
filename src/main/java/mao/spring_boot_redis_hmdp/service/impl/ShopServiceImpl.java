@@ -289,11 +289,12 @@ public class ShopServiceImpl extends ServiceImpl<ShopMapper, Shop> implements IS
             Distance distance = result.getDistance();
             //加入到map集合里
             distanceMap.put(id, distance);
+            //System.out.println(id+"-----"+distance.getValue());
         });
         //拼接
         String join = StrUtil.join(",", ids);
         //查询数据库
-        List<Shop> shops = this.query().in("id", ids).last("order by field(" + join + ")").list();
+        List<Shop> shops = this.query().in("id", ids).last("order by field(id," + join + ")").list();
         //填充距离信息
         for (Shop shop : shops)
         {

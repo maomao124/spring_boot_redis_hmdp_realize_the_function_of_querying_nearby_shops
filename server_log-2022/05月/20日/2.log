@@ -1,0 +1,93 @@
+2022-05-20 20:17:32.019 DEBUG 20396 --- [http-nio-8081-exec-3] m.s.mapper.ShopMapper.selectList         : <==      Total: 5
+2022-05-20 20:17:45.135 DEBUG 20396 --- [http-nio-8081-exec-4] m.s.mapper.ShopMapper.selectList         : ==>  Preparing: SELECT id,name,type_id,images,area,address,x,y,avg_price,sold,comments,score,open_hours,create_time,update_time FROM tb_shop WHERE (id IN (?,?,?,?,?)) order by field(1,6,4,8,9)
+2022-05-20 20:17:45.136 DEBUG 20396 --- [http-nio-8081-exec-4] m.s.mapper.ShopMapper.selectList         : ==> Parameters: 1(Long), 6(Long), 4(Long), 8(Long), 9(Long)
+2022-05-20 20:17:45.138 DEBUG 20396 --- [http-nio-8081-exec-4] m.s.mapper.ShopMapper.selectList         : <==      Total: 5
+2022-05-20 20:20:03.543  WARN 20396 --- [http-nio-8081-exec-7] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/test, version : 1.2.8, lastPacketReceivedIdleMillis : 138405
+2022-05-20 20:20:03.568 DEBUG 20396 --- [http-nio-8081-exec-7] m.s.mapper.ShopMapper.selectList         : ==>  Preparing: SELECT id,name,type_id,images,area,address,x,y,avg_price,sold,comments,score,open_hours,create_time,update_time FROM tb_shop WHERE (id IN (?,?,?,?,?)) order by field(12,10,11,13,14)
+2022-05-20 20:20:03.568 DEBUG 20396 --- [http-nio-8081-exec-7] m.s.mapper.ShopMapper.selectList         : ==> Parameters: 12(Long), 10(Long), 11(Long), 13(Long), 14(Long)
+2022-05-20 20:20:03.571 DEBUG 20396 --- [http-nio-8081-exec-7] m.s.mapper.ShopMapper.selectList         : <==      Total: 5
+2022-05-20 20:21:28.574  WARN 20396 --- [http-nio-8081-exec-1] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/test, version : 1.2.8, lastPacketReceivedIdleMillis : 85003
+2022-05-20 20:21:28.594 DEBUG 20396 --- [http-nio-8081-exec-1] m.s.mapper.ShopMapper.selectList         : ==>  Preparing: SELECT id,name,type_id,images,area,address,x,y,avg_price,sold,comments,score,open_hours,create_time,update_time FROM tb_shop WHERE (id IN (?,?,?,?,?)) order by field(12,10,11,13,14)
+2022-05-20 20:21:28.595 DEBUG 20396 --- [http-nio-8081-exec-1] m.s.mapper.ShopMapper.selectList         : ==> Parameters: 12(Long), 10(Long), 11(Long), 13(Long), 14(Long)
+2022-05-20 20:21:28.598 DEBUG 20396 --- [http-nio-8081-exec-1] m.s.mapper.ShopMapper.selectList         : <==      Total: 5
+2022-05-20 20:21:35.702 DEBUG 20396 --- [http-nio-8081-exec-2] m.s.mapper.ShopMapper.selectList         : ==>  Preparing: SELECT id,name,type_id,images,area,address,x,y,avg_price,sold,comments,score,open_hours,create_time,update_time FROM tb_shop WHERE (id IN (?,?,?,?,?)) order by field(1,6,4,8,9)
+2022-05-20 20:21:35.703 DEBUG 20396 --- [http-nio-8081-exec-2] m.s.mapper.ShopMapper.selectList         : ==> Parameters: 1(Long), 6(Long), 4(Long), 8(Long), 9(Long)
+2022-05-20 20:21:35.705 DEBUG 20396 --- [http-nio-8081-exec-2] m.s.mapper.ShopMapper.selectList         : <==      Total: 5
+2022-05-20 20:21:52.776 DEBUG 20396 --- [http-nio-8081-exec-3] m.s.mapper.ShopMapper.selectList         : ==>  Preparing: SELECT id,name,type_id,images,area,address,x,y,avg_price,sold,comments,score,open_hours,create_time,update_time FROM tb_shop WHERE (id IN (?,?,?,?,?)) order by field(5,1,6,3,4)
+2022-05-20 20:21:52.776 DEBUG 20396 --- [http-nio-8081-exec-3] m.s.mapper.ShopMapper.selectList         : ==> Parameters: 5(Long), 1(Long), 6(Long), 3(Long), 4(Long)
+2022-05-20 20:21:52.778 DEBUG 20396 --- [http-nio-8081-exec-3] m.s.mapper.ShopMapper.selectList         : <==      Total: 5
+2022-05-20 20:25:18.997  WARN 20396 --- [http-nio-8081-exec-7] c.a.druid.pool.DruidAbstractDataSource   : discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/test, version : 1.2.8, lastPacketReceivedIdleMillis : 206219
+2022-05-20 20:25:19.020 DEBUG 20396 --- [http-nio-8081-exec-7] m.s.mapper.ShopMapper.selectList         : ==>  Preparing: SELECT id,name,type_id,images,area,address,x,y,avg_price,sold,comments,score,open_hours,create_time,update_time FROM tb_shop WHERE (id IN (?,?,?,?,?)) order by field(5,1,6,3,4)
+2022-05-20 20:25:19.021 DEBUG 20396 --- [http-nio-8081-exec-7] m.s.mapper.ShopMapper.selectList         : ==> Parameters: 5(Long), 1(Long), 6(Long), 3(Long), 4(Long)
+2022-05-20 20:25:19.023 DEBUG 20396 --- [http-nio-8081-exec-7] m.s.mapper.ShopMapper.selectList         : <==      Total: 5
+2022-05-20 20:25:28.658 DEBUG 20396 --- [http-nio-8081-exec-8] m.s.mapper.ShopMapper.selectList         : ==>  Preparing: SELECT id,name,type_id,images,area,address,x,y,avg_price,sold,comments,score,open_hours,create_time,update_time FROM tb_shop WHERE (id IN (?,?,?,?,?)) order by field(5,1,3,6,9)
+2022-05-20 20:25:28.659 DEBUG 20396 --- [http-nio-8081-exec-8] m.s.mapper.ShopMapper.selectList         : ==> Parameters: 5(Long), 1(Long), 3(Long), 6(Long), 9(Long)
+2022-05-20 20:25:28.661 DEBUG 20396 --- [http-nio-8081-exec-8] m.s.mapper.ShopMapper.selectList         : <==      Total: 5
+2022-05-20 20:26:06.368 DEBUG 20396 --- [http-nio-8081-exec-9] m.s.mapper.ShopMapper.selectList         : ==>  Preparing: SELECT id,name,type_id,images,area,address,x,y,avg_price,sold,comments,score,open_hours,create_time,update_time FROM tb_shop WHERE (id IN (?,?,?,?)) order by field(8,4,2,7)
+2022-05-20 20:26:06.368 DEBUG 20396 --- [http-nio-8081-exec-9] m.s.mapper.ShopMapper.selectList         : ==> Parameters: 8(Long), 4(Long), 2(Long), 7(Long)
+2022-05-20 20:26:06.370 DEBUG 20396 --- [http-nio-8081-exec-9] m.s.mapper.ShopMapper.selectList         : <==      Total: 4
+2022-05-20 20:26:17.878 DEBUG 20396 --- [http-nio-8081-exec-10] m.s.mapper.ShopMapper.selectList         : ==>  Preparing: SELECT id,name,type_id,images,area,address,x,y,avg_price,sold,comments,score,open_hours,create_time,update_time FROM tb_shop WHERE (id IN (?,?,?,?,?)) order by field(5,1,3,6,9)
+2022-05-20 20:26:17.879 DEBUG 20396 --- [http-nio-8081-exec-10] m.s.mapper.ShopMapper.selectList         : ==> Parameters: 5(Long), 1(Long), 3(Long), 6(Long), 9(Long)
+2022-05-20 20:26:17.881 DEBUG 20396 --- [http-nio-8081-exec-10] m.s.mapper.ShopMapper.selectList         : <==      Total: 5
+2022-05-20 20:26:57.118  INFO 20396 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2022-05-20 20:26:57.722  INFO 20396 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2022-05-20 20:26:57.748  INFO 20396 --- [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is already stopped
+2022-05-20 20:26:57.770  INFO 20396 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-20 20:26:57.772  INFO 20396 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-05-20 20:27:02.601  INFO 7464 --- [restartedMain] FunctionOfQueryingNearbyShopsApplication : Starting SpringBootRedisHmdpRealizeTheFunctionOfQueryingNearbyShopsApplication using Java 16.0.2 on mao with PID 7464 (H:\程序\大三下期\spring_boot_redis_hmdp实现查询附近商铺功能\target\classes started by mao in H:\程序\大三下期\spring_boot_redis_hmdp实现查询附近商铺功能)
+2022-05-20 20:27:02.602 DEBUG 7464 --- [restartedMain] FunctionOfQueryingNearbyShopsApplication : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-20 20:27:02.602  INFO 7464 --- [restartedMain] FunctionOfQueryingNearbyShopsApplication : The following 1 profile is active: "dev"
+2022-05-20 20:27:02.638  INFO 7464 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-20 20:27:02.639  INFO 7464 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-20 20:27:03.447  INFO 7464 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-20 20:27:03.449  INFO 7464 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-20 20:27:03.477  INFO 7464 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2022-05-20 20:27:03.974  INFO 7464 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-05-20 20:27:03.982  INFO 7464 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-20 20:27:03.982  INFO 7464 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-05-20 20:27:04.057  INFO 7464 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-20 20:27:04.057  INFO 7464 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1418 ms
+2022-05-20 20:27:04.109  INFO 7464 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-20 20:27:04.219  INFO 7464 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-20 20:27:04.444  INFO 7464 --- [restartedMain] org.redisson.Version                     : Redisson 3.17.0
+2022-05-20 20:27:04.720  INFO 7464 --- [redisson-netty-2-13] o.r.c.pool.MasterPubSubConnectionPool    : 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2022-05-20 20:27:04.739  INFO 7464 --- [redisson-netty-2-18] o.r.c.pool.MasterConnectionPool          : 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2022-05-20 20:27:06.159  INFO 7464 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-20 20:27:06.164  INFO 7464 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-20 20:27:06.263  INFO 7464 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-05-20 20:27:06.265  INFO 7464 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [127.0.0.1:5672]
+2022-05-20 20:27:06.286  INFO 7464 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#5742d349:0/SimpleConnection@2b013a44 [delegate=amqp://admin@127.0.0.1:5672/, localPort= 57423]
+2022-05-20 20:27:06.290  INFO 7464 --- [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable or auto-delete Exchange (hmdp_exchange) durable:false, auto-delete:false. It will be deleted by the broker if it shuts down, and can be redeclared by closing and reopening the connection.
+2022-05-20 20:27:06.290  INFO 7464 --- [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (hmdp_queue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-05-20 20:27:06.338  INFO 7464 --- [restartedMain] FunctionOfQueryingNearbyShopsApplication : Started SpringBootRedisHmdpRealizeTheFunctionOfQueryingNearbyShopsApplication in 4.086 seconds (JVM running for 4.677)
+2022-05-20 20:27:06.873  INFO 7464 --- [RMI TCP Connection(2)-172.28.144.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-20 20:27:06.873  INFO 7464 --- [RMI TCP Connection(2)-172.28.144.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-20 20:27:06.874  INFO 7464 --- [RMI TCP Connection(2)-172.28.144.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-05-20 20:27:09.092  INFO 7464 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2022-05-20 20:27:09.347  INFO 7464 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#0-2] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2022-05-20 20:27:09.380  INFO 7464 --- [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is already stopped
+2022-05-20 20:27:09.415  INFO 7464 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-20 20:27:09.418  INFO 7464 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-05-20 20:27:30.534  INFO 21568 --- [restartedMain] FunctionOfQueryingNearbyShopsApplication : Starting SpringBootRedisHmdpRealizeTheFunctionOfQueryingNearbyShopsApplication using Java 16.0.2 on mao with PID 21568 (H:\程序\大三下期\spring_boot_redis_hmdp实现查询附近商铺功能\target\classes started by mao in H:\程序\大三下期\spring_boot_redis_hmdp实现查询附近商铺功能)
+2022-05-20 20:27:30.535 DEBUG 21568 --- [restartedMain] FunctionOfQueryingNearbyShopsApplication : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-20 20:27:30.536  INFO 21568 --- [restartedMain] FunctionOfQueryingNearbyShopsApplication : The following 1 profile is active: "dev"
+2022-05-20 20:27:30.570  INFO 21568 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-20 20:27:30.570  INFO 21568 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-20 20:27:31.316  INFO 21568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-20 20:27:31.317  INFO 21568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-20 20:27:31.340  INFO 21568 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2022-05-20 20:27:31.806  INFO 21568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-05-20 20:27:31.812  INFO 21568 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-20 20:27:31.813  INFO 21568 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-05-20 20:27:31.890  INFO 21568 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-20 20:27:31.890  INFO 21568 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1320 ms
+2022-05-20 20:27:31.943  INFO 21568 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-20 20:27:32.045  INFO 21568 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-20 20:27:32.253  INFO 21568 --- [restartedMain] org.redisson.Version                     : Redisson 3.17.0
+2022-05-20 20:27:32.490  INFO 21568 --- [redisson-netty-2-23] o.r.c.pool.MasterPubSubConnectionPool    : 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2022-05-20 20:27:32.499  INFO 21568 --- [redisson-netty-2-19] o.r.c.pool.MasterConnectionPool          : 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2022-05-20 20:27:33.838  INFO 21568 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-20 20:27:33.843  INFO 21568 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-20 20:27:33.936  INFO 21568 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-05-20 20:27:33.938  INFO 21568 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [127.0.0.1:5672]
+2022-05-20 20:27:33.958  INFO 21568 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#1bbe86e4:0/SimpleConnection@432517a4 [delegate=amqp://admin@127.0.0.1:5672/, localPort= 57550]
