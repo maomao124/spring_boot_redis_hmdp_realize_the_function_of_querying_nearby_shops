@@ -1,0 +1,23 @@
+2022-05-20 20:32:29.925  INFO 15868 --- [main] FunctionOfQueryingNearbyShopsApplication : Starting SpringBootRedisHmdpRealizeTheFunctionOfQueryingNearbyShopsApplication v0.0.1-SNAPSHOT using Java 16.0.2 on mao with PID 15868 (H:\程序\大三下期\spring_boot_redis_hmdp实现查询附近商铺功能\target\spring_boot_redis_hmdp-0.0.1-SNAPSHOT.jar started by mao in H:\程序\大三下期\spring_boot_redis_hmdp实现查询附近商铺功能\target)
+2022-05-20 20:32:29.928 DEBUG 15868 --- [main] FunctionOfQueryingNearbyShopsApplication : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-20 20:32:29.929  INFO 15868 --- [main] FunctionOfQueryingNearbyShopsApplication : The following 1 profile is active: "dev"
+2022-05-20 20:32:31.086  INFO 15868 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-20 20:32:31.091  INFO 15868 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-20 20:32:31.123  INFO 15868 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2022-05-20 20:32:32.122  INFO 15868 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-05-20 20:32:32.138  INFO 15868 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-20 20:32:32.139  INFO 15868 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-05-20 20:32:32.226  INFO 15868 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-20 20:32:32.227  INFO 15868 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2240 ms
+2022-05-20 20:32:32.343  INFO 15868 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-20 20:32:32.600  INFO 15868 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-20 20:32:33.166  INFO 15868 --- [main] org.redisson.Version                     : Redisson 3.17.0
+2022-05-20 20:32:33.536  INFO 15868 --- [redisson-netty-2-19] o.r.c.pool.MasterPubSubConnectionPool    : 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2022-05-20 20:32:33.547  INFO 15868 --- [redisson-netty-2-19] o.r.c.pool.MasterConnectionPool          : 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2022-05-20 20:32:36.287  INFO 15868 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-20 20:32:36.422  INFO 15868 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-05-20 20:32:36.426  INFO 15868 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [127.0.0.1:5672]
+2022-05-20 20:32:36.550  INFO 15868 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#3f92a84e:0/SimpleConnection@58867cd5 [delegate=amqp://admin@127.0.0.1:5672/, localPort= 58912]
+2022-05-20 20:32:36.557  INFO 15868 --- [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable or auto-delete Exchange (hmdp_exchange) durable:false, auto-delete:false. It will be deleted by the broker if it shuts down, and can be redeclared by closing and reopening the connection.
+2022-05-20 20:32:36.558  INFO 15868 --- [main] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (hmdp_queue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-05-20 20:32:36.651  INFO 15868 --- [main] FunctionOfQueryingNearbyShopsApplication : Started SpringBootRedisHmdpRealizeTheFunctionOfQueryingNearbyShopsApplication in 7.374 seconds (JVM running for 7.874)
