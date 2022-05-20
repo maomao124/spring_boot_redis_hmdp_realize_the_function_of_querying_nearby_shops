@@ -48,3 +48,32 @@
 2022-05-20 20:02:18.859  INFO 3172 --- [SpringApplicationShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is already stopped
 2022-05-20 20:02:18.875  INFO 3172 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
 2022-05-20 20:02:18.880  INFO 3172 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-05-20 20:02:28.352  INFO 22924 --- [restartedMain] FunctionOfQueryingNearbyShopsApplication : Starting SpringBootRedisHmdpRealizeTheFunctionOfQueryingNearbyShopsApplication using Java 16.0.2 on mao with PID 22924 (H:\程序\大三下期\spring_boot_redis_hmdp实现查询附近商铺功能\target\classes started by mao in H:\程序\大三下期\spring_boot_redis_hmdp实现查询附近商铺功能)
+2022-05-20 20:02:28.353 DEBUG 22924 --- [restartedMain] FunctionOfQueryingNearbyShopsApplication : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-05-20 20:02:28.353  INFO 22924 --- [restartedMain] FunctionOfQueryingNearbyShopsApplication : The following 1 profile is active: "dev"
+2022-05-20 20:02:28.391  INFO 22924 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-20 20:02:28.391  INFO 22924 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-20 20:02:29.152  INFO 22924 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-20 20:02:29.153  INFO 22924 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-20 20:02:29.175  INFO 22924 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2022-05-20 20:02:29.651  INFO 22924 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-05-20 20:02:29.658  INFO 22924 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-20 20:02:29.659  INFO 22924 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-05-20 20:02:29.727  INFO 22924 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-20 20:02:29.727  INFO 22924 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1336 ms
+2022-05-20 20:02:29.774  INFO 22924 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-20 20:02:29.886  INFO 22924 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-20 20:02:30.081  INFO 22924 --- [restartedMain] org.redisson.Version                     : Redisson 3.17.0
+2022-05-20 20:02:30.321  INFO 22924 --- [redisson-netty-2-22] o.r.c.pool.MasterPubSubConnectionPool    : 1 connections initialized for 127.0.0.1/127.0.0.1:6379
+2022-05-20 20:02:30.329  INFO 22924 --- [redisson-netty-2-19] o.r.c.pool.MasterConnectionPool          : 24 connections initialized for 127.0.0.1/127.0.0.1:6379
+2022-05-20 20:02:31.634  INFO 22924 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-20 20:02:31.639  INFO 22924 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-20 20:02:31.740  INFO 22924 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-05-20 20:02:31.742  INFO 22924 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [127.0.0.1:5672]
+2022-05-20 20:02:31.763  INFO 22924 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#324a0ca2:0/SimpleConnection@19e43e5c [delegate=amqp://admin@127.0.0.1:5672/, localPort= 53339]
+2022-05-20 20:02:31.767  INFO 22924 --- [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable or auto-delete Exchange (hmdp_exchange) durable:false, auto-delete:false. It will be deleted by the broker if it shuts down, and can be redeclared by closing and reopening the connection.
+2022-05-20 20:02:31.767  INFO 22924 --- [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (hmdp_queue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2022-05-20 20:02:31.818  INFO 22924 --- [restartedMain] FunctionOfQueryingNearbyShopsApplication : Started SpringBootRedisHmdpRealizeTheFunctionOfQueryingNearbyShopsApplication in 3.802 seconds (JVM running for 4.422)
+2022-05-20 20:02:32.298  INFO 22924 --- [RMI TCP Connection(1)-172.28.144.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-20 20:02:32.298  INFO 22924 --- [RMI TCP Connection(1)-172.28.144.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-20 20:02:32.300  INFO 22924 --- [RMI TCP Connection(1)-172.28.144.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
